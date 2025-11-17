@@ -1,0 +1,9 @@
+{
+	"name": "df-spotify-azureproject",
+	"location": "switzerlandnorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "048a4a98-0c4d-449e-93d4-0c06e457da26",
+		"tenantId": "0bc92751-071a-4e2c-a48b-633206fef374"
+	}
+}
