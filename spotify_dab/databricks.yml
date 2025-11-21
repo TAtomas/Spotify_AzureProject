@@ -1,0 +1,23 @@
+
+bundle:
+  name: spotify_dab
+  uuid: c48b3893-e4a2-4717-ab26-dcd32e969ef7
+
+
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: adb-246849548553651.11.azuredatabricks.net
+    presets:
+      source_linked_deployment: false
+  prod:
+    mode: production
+    workspace:
+      host: adb-246849548553651.11.azuredatabricks.net
+      root_path: /Workspace/PROD/.bundle/${bundle.name}/${bundle.target}
+    permissions:
+      - user_name: te30508081700492@depi.eui.edu.eg
+        level: CAN_MANAGE
