@@ -122,10 +122,7 @@ Contributions are welcome. Please open an issue, or submit a PR with a short des
 ## License
 This project is licensed under the MIT License — see `LICENSE` for details.
 
----
 
-If you want, I can also:
-- Fix the minor typos in DLT scripts and standardize naming across the repo.
-- Add a `README.md` to the `spotify_dab` folder with quick running instructions for Databricks.
 
-Happy to continue — tell me which task to do next.
+
+
